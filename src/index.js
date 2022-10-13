@@ -11,7 +11,7 @@ const root = createRoot(container);
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter basename='github-repository-search'>
+      <BrowserRouter basename='/github-repository-search/'>
         <Routes>
           <Route path="/*" element={<App />} />
         </Routes>
